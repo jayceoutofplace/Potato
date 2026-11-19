@@ -1,0 +1,30 @@
+public class PotatoMaker
+{
+  public static bool isDelicious = true;
+  public static String condiments = null;
+
+  public static void getCondiments()
+  {
+    System.out.println(condiments);
+  }
+
+  public static void addCondiment(String condiment)
+  {
+    if(condiments = null)
+      condiments += condiment;
+    else
+    {
+      condiments += " and " + condiment;
+    }
+
+    public static void spoil()
+    {
+      isDelicious = false;
+    }
+
+    public static bool expired()
+    {
+      return !isDelicious
+    }
+  }
+}
